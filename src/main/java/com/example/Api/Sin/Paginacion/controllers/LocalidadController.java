@@ -1,6 +1,5 @@
 package com.example.Api.Sin.Paginacion.controllers;
 
-
 import com.example.Api.Sin.Paginacion.entities.Localidad;
 import com.example.Api.Sin.Paginacion.services.LocalidadServiceImpl;
 import org.springframework.web.bind.annotation.CrossOrigin;

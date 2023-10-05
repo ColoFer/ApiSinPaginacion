@@ -8,6 +8,7 @@ public class ApiSinPaginacionApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ApiSinPaginacionApplication.class, args);
+		System.out.print("estoy funcionandoooooo");
 	}
 
 }

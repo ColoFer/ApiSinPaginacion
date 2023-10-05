@@ -1,6 +1,7 @@
 package com.example.Api.Sin.Paginacion.entities;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,6 +19,7 @@ import java.util.List;
 
 public class Persona extends Base {
 
+    @NotNull
     @Column(name = "nombre")
     private String nombre;
 
@@ -31,12 +33,12 @@ public class Persona extends Base {
     @JoinColumn(name = "fk_domicilio")
     private Domicilio domicilio;
 
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true) //cuando eliminemos una persona, tambien eliminamos los libros que le pertenecen.
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true,fetch = FetchType.EAGER) //cuando eliminemos una persona, tambien eliminamos los libros que le pertenecen.
     @JoinTable(
             name = "persona_libro",
             joinColumns = @JoinColumn(name = "persona_id"),
             inverseJoinColumns = @JoinColumn(name = "libro_id")
     )
 
-    private List<Libro> libros = new ArrayList<Libro>();
+    private List<Libro> libros = new ArrayList<>();
 }

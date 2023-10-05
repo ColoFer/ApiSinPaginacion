@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class PersonaServiceImpl extends BaseServiceImpl<Persona,Long> implements PersonaService{
 
     @Autowired
-    protected PersonaRepository personaRepository;
+    private final PersonaRepository personaRepository;
 
     public PersonaServiceImpl (BaseRepository<Persona,Long> baseRepository,PersonaRepository personaRepository){
         super(baseRepository);

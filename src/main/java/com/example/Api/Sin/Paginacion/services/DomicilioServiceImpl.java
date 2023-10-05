@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class DomicilioServiceImpl extends BaseServiceImpl<Domicilio,Long> implements DomicilioService{
 
     @Autowired
-    protected DomicilioRepository domicilioRepository;
+    private DomicilioRepository domicilioRepository;
     public DomicilioServiceImpl(BaseRepository<Domicilio, Long> baseRepository, DomicilioRepository domicilioRepository) {
         super(baseRepository);
         this.domicilioRepository = domicilioRepository;
