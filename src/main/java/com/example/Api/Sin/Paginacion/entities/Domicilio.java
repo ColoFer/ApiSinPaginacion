@@ -20,7 +20,7 @@ public class Domicilio extends Base{
     @Column(name = "numero")
     private int numero;
 
-    @ManyToOne(optional = false)//localidad no puede ser nula a la hora de crear un domicilio
+    @ManyToOne(cascade = CascadeType.REFRESH,optional = false)//localidad no puede ser nula a la hora de crear un domicilio
     @JoinColumn(name = "fk_localidad")
     private Localidad localidad;
 }
