@@ -39,6 +39,4 @@ public class Persona extends Base {
     )
 
     private List<Libro> libros = new ArrayList<Libro>();
-
-
 }
