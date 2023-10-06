@@ -1,0 +1,425 @@
+{
+	"info": {
+		"_postman_id": "53ee907f-6ace-4c8d-b9be-610f92bfc64f",
+		"name": "API Resquest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30202370"
+	},
+	"item": [
+		{
+			"name": "Localidades",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/localidades",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/localidades/2",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"denominacion\": \"Ciudad\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/localidades",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 2,\r\n    \"denominacion\": \"Ciudad\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/localidades/2",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delate",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/localidades/3",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Autores",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/autores",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/autores/2",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Jorge Francisco Isidoro Luis\",\r\n    \"apellido\": \"Borges\",\r\n    \"biografia\": \"Fue un escritor, poeta, ensayista y traductor argentino, extensamente considerado una figura clave tanto para la literatura en habla hispana como para la literatura universal. Sus dos libros más conocidos, Ficciones y El Aleph, publicados en los años cuarenta, son recopilaciones de cuentos conectados por temas comunes como los sueños, los laberintos, las bibliotecas, los espejos, los autores ficticios y las mitologías europeas; sus argumentos exploran ideas filosóficas relacionadas, por ejemplo, con la memoria, la eternidad, la posmodernidad y la metaficción.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/autores",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 2,\r\n    \"nombre\": \"Pablo\",\r\n    \"apellido\": \"Neruda\",\r\n    \"biografia\": \"Fue un poeta y político chileno. Es considerado entre los más destacados e influyentes artistas de su siglo; además de haber sido senador de la república chilena, miembro del Comité Central del Partido Comunista, precandidato a la presidencia de su país y embajador en Francia.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/autores/2",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delate",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/autores/3",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Personas",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/personas/1",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"Maria Alexandra\",\r\n    \"apellido\":\"Fernandez\",\r\n    \"dni\": 43829215,\r\n    \"domicilio\": {\r\n        \"calle\": \"Reconquista\",\r\n        \"numero\": 274,\r\n        \"localidad\": {\r\n            \"id\": 2,\r\n            \"denominacion\": \"Ciudad\"\r\n        }\r\n    },\r\n    \"libros\": [\r\n        {\r\n            \"titulo\":\"Cien sonetos de amor\",\r\n            \"fecha\":2013,\r\n            \"genero\":\"Poema\",\r\n            \"paginas\":120,\r\n            \"autores\":[\r\n                {\r\n                    \"id\": 2,\r\n                    \"nombre\": \"Pablo\",\r\n                    \"apellido\": \"Neruda\",\r\n                    \"biografia\": \"Fue un poeta y político chileno. Es considerado entre los más destacados e influyentes artistas de su siglo; además de haber sido senador de la república chilena, miembro del Comité Central del Partido Comunista, precandidato a la presidencia de su país y embajador en Francia.\"\r\n                }\r\n            ]\r\n        },\r\n        {\r\n            \"titulo\":\"Cuentos Completos\",\r\n            \"fecha\":2008,\r\n            \"genero\":\"Cuento\",\r\n            \"paginas\":220,\r\n            \"autores\":[\r\n                {\r\n                    \"id\": 1,\r\n                    \"nombre\": \"Gabriel José de la Concordia\",\r\n                    \"apellido\": \"García Márquez\",\r\n                    \"biografia\": \"Fue un escritor y periodista colombiano. Reconocido principalmente por sus novelas y cuentos, también escribió narrativa de no ficción, discursos, reportajes, críticas cinematográficas y memorias.\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n        \"id\": 1,\r\n        \"nombre\": \"Fabian Ariel\",\r\n        \"apellido\": \"Herrera\",\r\n        \"dni\": 43800003,\r\n        \"domicilio\": {\r\n            \"id\": 1,\r\n            \"calle\": \"Luzuriaga\",\r\n            \"numero\": 1274,\r\n            \"localidad\": {\r\n                \"id\": 1,\r\n                \"denominacion\": \"Godoy Cruz\"\r\n            }\r\n        },\r\n        \"libros\": [\r\n            {\r\n                \"id\": 1,\r\n                \"titulo\": \"Veinte poemas de amor y una canción desesperada\",\r\n                \"fecha\": 2003,\r\n                \"genero\": \"Poema\",\r\n                \"paginas\": 150,\r\n                \"autores\": [\r\n                    {\r\n                        \"id\": 1,\r\n                        \"nombre\": \"Gabriel José de la Concordia\",\r\n                        \"apellido\": \"García Márquez\",\r\n                        \"biografia\": \"Fue un escritor y periodista colombiano. Reconocido principalmente por sus novelas y cuentos, también escribió narrativa de no ficción, discursos, reportajes, críticas cinematográficas y memorias.\"\r\n                    }\r\n                ]\r\n            }\r\n        ]\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/personas/1",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delate",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://apirest-k7rw.onrender.com/api/v1/personas/1",
+							"protocol": "https",
+							"host": [
+								"apirest-k7rw",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

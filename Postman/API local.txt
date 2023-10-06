@@ -1,0 +1,132 @@
+AUTORES: http://localhost:8080/api/v1/autores
+
+[
+    {
+        "id": 1,
+        "nombre": "Gabriel José de la Concordia",
+        "apellido": "García Márquez",
+        "biografia": "Fue un escritor y periodista colombiano. Reconocido principalmente por sus novelas y cuentos, también escribió narrativa de no ficción, discursos, reportajes, críticas cinematográficas y memorias."
+    },
+    {
+        "id": 2,
+        "nombre": "Pablo",
+        "apellido": "Neruda",
+        "biografia": "Fue un poeta y político chileno. Es considerado entre los más destacados e influyentes artistas de su siglo; además de haber sido senador de la república chilena, miembro del Comité Central del Partido Comunista (PC), precandidato a la presidencia de su país y embajador en Francia."
+    },
+    {
+        "id": 3,
+        "nombre": "Jorge Francisco Isidoro Luis",
+        "apellido": "Borges",
+        "biografia": "Fue un escritor, poeta, ensayista y traductor argentino, extensamente considerado una figura clave tanto para la literatura en habla hispana como para la literatura universal. Sus dos libros más conocidos, Ficciones y El Aleph, publicados en los años cuarenta, son recopilaciones de cuentos conectados por temas comunes como los sueños, los laberintos, las bibliotecas, los espejos, los autores ficticios y las mitologías europeas; sus argumentos exploran ideas filosóficas relacionadas, por ejemplo, con la memoria, la eternidad, la posmodernidad y la metaficción."
+    }
+]
+
+
+LOCALIDADES: http://localhost:8080/api/v1/localidades
+
+[
+    {
+        "id": 1,
+        "denominacion": "Godoy Cruz"
+    },
+    {
+        "id": 2,
+        "denominacion": "Ciudad"
+    }
+]
+
+
+PERSONAS: http://localhost:8080/api/v1/personas
+
+[
+    {
+        "id": 1,
+        "nombre": "Fabian Ariel",
+        "apellido": "Herrera",
+        "dni": 43829316,
+        "domicilio": {
+            "id": 1,
+            "calle": "Luzuriaga",
+            "numero": 1274,
+            "localidad": {
+                "id": 1,
+                "denominacion": "Godoy Cruz"
+            }
+        },
+        "libros": [
+            {
+                "id": 1,
+                "titulo": "Veinte poemas de amor y una canción desesperada",
+                "fecha": 2003,
+                "genero": "Poema",
+                "paginas": 150,
+                "autores": [
+                    {
+                        "id": 1,
+                        "nombre": "Gabriel José de la Concordia",
+                        "apellido": "García Márquez",
+                        "biografia": "Fue un escritor y periodista colombiano. Reconocido principalmente por sus novelas y cuentos, también escribió narrativa de no ficción, discursos, reportajes, críticas cinematográficas y memorias."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Maria Alexandra",
+        "apellido": "Fernandez",
+        "dni": 43829215,
+        "domicilio": {
+            "id": 2,
+            "calle": "Reconquista",
+            "numero": 274,
+            "localidad": {
+                "id": 2,
+                "denominacion": "Ciudad"
+            }
+        },
+        "libros": [
+            {
+                "id": 2,
+                "titulo": "Cien sonetos de amor",
+                "fecha": 2013,
+                "genero": "Poema",
+                "paginas": 120,
+                "autores": [
+                    {
+                        "id": 2,
+                        "nombre": "Pablo",
+                        "apellido": "Neruda",
+                        "biografia": "Fue un poeta y político chileno. Es considerado entre los más destacados e influyentes artistas de su siglo; además de haber sido senador de la república chilena, miembro del Comité Central del Partido Comunista, precandidato a la presidencia de su país y embajador en Francia."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "titulo": "Cuentos Completos",
+                "fecha": 2008,
+                "genero": "Cuento",
+                "paginas": 220,
+                "autores": [
+                    {
+                        "id": 1,
+                        "nombre": "Gabriel José de la Concordia",
+                        "apellido": "García Márquez",
+                        "biografia": "Fue un escritor y periodista colombiano. Reconocido principalmente por sus novelas y cuentos, también escribió narrativa de no ficción, discursos, reportajes, críticas cinematográficas y memorias."
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
