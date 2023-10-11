@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.Api.Sin.Paginacion.ApiSinPaginacionApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-04T00:28:02" hostname="LAPTOP-S9UB4FKO" time="0.615">
+<testsuite name="com.example.Api.Sin.Paginacion.ApiSinPaginacionApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-11T21:33:21" hostname="LAPTOP-S9UB4FKO" time="0.657">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.Api.Sin.Paginacion.ApiSinPaginacionApplicationTests" time="0.615"/>
-  <system-out><![CDATA[21:27:55.694 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.Api.Sin.Paginacion.ApiSinPaginacionApplicationTests]: ApiSinPaginacionApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-21:27:55.828 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.Api.Sin.Paginacion.ApiSinPaginacionApplication for test class com.example.Api.Sin.Paginacion.ApiSinPaginacionApplicationTests
+  <testcase name="contextLoads()" classname="com.example.Api.Sin.Paginacion.ApiSinPaginacionApplicationTests" time="0.657"/>
+  <system-out><![CDATA[18:33:13.503 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.Api.Sin.Paginacion.ApiSinPaginacionApplicationTests]: ApiSinPaginacionApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:33:13.677 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.Api.Sin.Paginacion.ApiSinPaginacionApplication for test class com.example.Api.Sin.Paginacion.ApiSinPaginacionApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,20 +13,20 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.4)
 
-2023-10-03T21:27:56.426-03:00  INFO 19924 --- [    Test worker] e.A.S.P.ApiSinPaginacionApplicationTests : Starting ApiSinPaginacionApplicationTests using Java 17.0.8 with PID 19924 (started by Alexandra in C:\Users\54261\Api Sin Paginacion\Api-Sin-Paginacion)
-2023-10-03T21:27:56.428-03:00  INFO 19924 --- [    Test worker] e.A.S.P.ApiSinPaginacionApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2023-10-03T21:27:57.620-03:00  INFO 19924 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-10-03T21:27:57.731-03:00  INFO 19924 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 5 JPA repository interfaces.
-2023-10-03T21:27:58.397-03:00  INFO 19924 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-10-03T21:27:58.521-03:00  INFO 19924 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
-2023-10-03T21:27:58.524-03:00  INFO 19924 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
-2023-10-03T21:27:58.784-03:00  INFO 19924 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-10-03T21:27:59.007-03:00  INFO 19924 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-10-03T21:27:59.037-03:00  INFO 19924 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-10-03T21:27:59.296-03:00  INFO 19924 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./betodb user=SA
-2023-10-03T21:27:59.299-03:00  INFO 19924 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-10-03T21:27:59.725-03:00  INFO 19924 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
-2023-10-03T21:28:00.581-03:00  INFO 19924 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11T18:33:14.293-03:00  INFO 19212 --- [    Test worker] e.A.S.P.ApiSinPaginacionApplicationTests : Starting ApiSinPaginacionApplicationTests using Java 17.0.8 with PID 19212 (started by Alexandra in C:\Users\54261\Api Sin Paginacion\Api-Sin-Paginacion)
+2023-10-11T18:33:14.296-03:00  INFO 19212 --- [    Test worker] e.A.S.P.ApiSinPaginacionApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-10-11T18:33:15.408-03:00  INFO 19212 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11T18:33:15.531-03:00  INFO 19212 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 5 JPA repository interfaces.
+2023-10-11T18:33:16.234-03:00  INFO 19212 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11T18:33:16.364-03:00  INFO 19212 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-11T18:33:16.367-03:00  INFO 19212 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-11T18:33:16.652-03:00  INFO 19212 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-11T18:33:16.944-03:00  INFO 19212 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11T18:33:16.973-03:00  INFO 19212 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-11T18:33:17.271-03:00  INFO 19212 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./betodb user=SA
+2023-10-11T18:33:17.273-03:00  INFO 19212 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-11T18:33:17.707-03:00  INFO 19212 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-11T18:33:18.786-03:00  INFO 19212 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 Hibernate: create table autor (id bigint generated by default as identity, apellido varchar(255), biografia varchar(1500), nombre varchar(255), primary key (id))
 Hibernate: create table domicilio (id bigint generated by default as identity, calle varchar(255), numero integer, fk_localidad bigint not null, primary key (id))
 Hibernate: create table libro (id bigint generated by default as identity, fecha integer, genero varchar(255), paginas integer, titulo varchar(255), primary key (id))
@@ -44,10 +44,11 @@ Hibernate: alter table if exists libro_autores add constraint FKsoheqe18ertlksjn
 Hibernate: alter table if exists persona add constraint FKdvcd83wmvj0mwmbu3kyoisobn foreign key (fk_domicilio) references domicilio
 Hibernate: alter table if exists persona_libro add constraint FK6oar3k71e0huyyjlxd0a8qnct foreign key (libro_id) references libro
 Hibernate: alter table if exists persona_libro add constraint FKd8c57cn01g1qhcax4yanhi2o4 foreign key (persona_id) references persona
-2023-10-03T21:28:00.688-03:00  INFO 19924 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-10-03T21:28:01.504-03:00  WARN 19924 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-10-03T21:28:02.388-03:00  INFO 19924 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:./betodb'
-2023-10-03T21:28:02.464-03:00  INFO 19924 --- [    Test worker] e.A.S.P.ApiSinPaginacionApplicationTests : Started ApiSinPaginacionApplicationTests in 6.379 seconds (process running for 7.911)
+2023-10-11T18:33:18.906-03:00  INFO 19212 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11T18:33:19.544-03:00  INFO 19212 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-11T18:33:20.311-03:00  WARN 19212 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11T18:33:21.221-03:00  INFO 19212 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:./betodb'
+2023-10-11T18:33:21.299-03:00  INFO 19212 --- [    Test worker] e.A.S.P.ApiSinPaginacionApplicationTests : Started ApiSinPaginacionApplicationTests in 7.328 seconds (process running for 9.35)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
