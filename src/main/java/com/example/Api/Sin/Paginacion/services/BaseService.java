@@ -1,6 +1,8 @@
 package com.example.Api.Sin.Paginacion.services;
 
 import com.example.Api.Sin.Paginacion.entities.Base;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 import java.io.Serializable;
 import java.util.List;
@@ -8,6 +10,8 @@ import java.util.List;
 public interface BaseService<E extends Base,ID extends Serializable> {
     public List<E> findAll() throws Exception;
     //lista de todas las personas que estan en la bd
+    public Page<E> findAll(Pageable pageable) throws  Exception;
+    //devuelve un page sublista con los datos
     public E findById(ID id) throws  Exception;
     //extrae una entidad de acuerdo a un id que le pasemos.
     public E save(E entity) throws  Exception;

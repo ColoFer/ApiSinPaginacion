@@ -3,7 +3,6 @@ package com.example.Api.Sin.Paginacion.entities;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
-import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,7 +17,6 @@ import lombok.Setter;
 
 public class Localidad extends Base {
 
-    @NotNull
     @Column(name = "denominacion")
     private String denominacion;
 }

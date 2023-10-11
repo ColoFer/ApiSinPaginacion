@@ -16,6 +16,7 @@ import java.util.List;
 @Setter
 
 public class Libro extends Base{
+
     @Column(name = "titulo")
     private String titulo;
 

@@ -19,7 +19,6 @@ import java.util.List;
 
 public class Persona extends Base {
 
-    @NotNull
     @Column(name = "nombre")
     private String nombre;
 
